@@ -4,4 +4,15 @@ div {
   margin: 20px auto;
   font-size: 20px;
   letter-spacing: 1px;
+  background-color: yellow
+ }
+
+ .cursor {
+  opacity: 0;
+  transition: .2s;
+ 
+ }
+
+ .cursor.active {
+  opacity: 1;
  }
